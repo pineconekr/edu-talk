@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연구 컨설팅 전문 서비스</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-800">학술 연구 컨설팅</a>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#about" class="text-gray-600 hover:text-indigo-600 transition-colors">서비스 소개</a>
+                <a href="#consultant" class="text-gray-600 hover:text-indigo-600 transition-colors">전문가 소개</a>
+                <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition-colors">문의하기</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden p-2 text-gray-600 rounded-md hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+            <a href="#about" class="block py-3 px-4 text-gray-700 hover:bg-gray-100">서비스 소개</a>
+            <a href="#consultant" class="block py-3 px-4 text-gray-700 hover:bg-gray-100">전문가 소개</a>
+            <a href="#contact" class="block py-3 px-4 text-gray-700 hover:bg-gray-100">문의하기</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl shadow-xl text-white p-8 md:p-12 text-center mb-16">
+            <h1 class="text-3xl md:text-5xl font-bold leading-tight mb-4">학문적 성장을 위한 최고의 파트너</h1>
+            <p class="text-lg md:text-xl font-light mb-8">가장 빠르고, 정직한 논문 컨설팅으로 연구의 완성도를 높이세요.</p>
+            <a href="#contact" class="bg-white text-indigo-600 hover:bg-gray-200 transition-colors font-semibold py-3 px-8 rounded-full shadow-lg">무료 컨설팅 문의</a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="mb-16">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">컨설팅 서비스의 차별점</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <svg class="w-12 h-12 text-indigo-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">효율적인 연구 기간 단축</h3>
+                    <p class="text-gray-600">체계적인 단계별 코칭으로 불필요한 시행착오를 줄여 연구 시간을 절약합니다.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <svg class="w-12 h-12 text-purple-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 8h6m-5 4h8m-11 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">투명하고 합리적인 비용</h3>
+                    <p class="text-gray-600">단계별 컨설팅 비용을 명확하게 제시하여 불합리한 폭리를 취하지 않습니다.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <svg class="w-12 h-12 text-teal-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.018A9.955 9.955 0 0112 2a9.985 9.985 0 017.78 3.54l-1.558 1.558A8.003 8.003 0 0012 4a8.003 8.003 0 00-5.656 2.344L4.344 4.344A9.985 9.985 0 0112 20.003z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">높은 심사 통과율</h3>
+                    <p class="text-gray-600">심사 기준에 대한 깊은 이해를 바탕으로 논문의 완성도를 끌어올립니다.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <svg class="w-12 h-12 text-pink-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 10a4 4 0 01-2 5.292"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">최고 수준의 전문가 그룹</h3>
+                    <p class="text-gray-600">대학교수 출신 연구자들이 직접 1:1 맞춤 컨설팅을 제공합니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Consultant Section -->
+        <section id="consultant" class="mb-16">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">연구자 소개: 역대 최다 논문 편수를 연구한 실력자</h2>
+            <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-12">
+                <div class="md:w-1/3 text-center md:text-left">
+                    <div class="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden mx-auto md:mx-0">
+                         <img src="https://placehold.co/400x400/b0e0e6/ffffff?text=Professional+Portrait" alt="컨설턴트 사진" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div class="md:w-2/3">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-2">김철수 박사</h3>
+                    <p class="text-lg text-gray-600 mb-4">전 [유명 대학] 교수 / 연구 분야 [예: 의학, 공학, 인문학]</p>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        김철수 박사님은 지난 20년간 학계에 몸담으며 약 300편 이상의 논문을 직접 작성하고 지도한 경험을 보유한 연구계의 권위자입니다. 방대한 연구 경험과 탁월한 통계 분석 능력을 바탕으로, 학사부터 박사 과정까지 모든 단계의 논문 작성에 대한 실질적인 도움을 제공합니다. 특히 심사 통과에 필요한 핵심 요소들을 정확히 파악하여, 연구의 질을 한 단계 끌어올리는 데 기여합니다.
+                    </p>
+                    <p class="text-gray-700 font-semibold">
+                        주요 전문 분야: [예: 통계 분석], [예: 선행 연구 고찰], [예: 논문 교정]
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-16">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">1:1 맞춤 컨설팅 문의</h2>
+            <!-- Netlify 폼 설정을 위해 form 태그에 'data-netlify="true"'와 name 속성을 추가합니다. -->
+            <form name="contact" method="POST" data-netlify="true" class="max-w-xl mx-auto space-y-6">
+                <!-- Netlify 봇 감지를 위한 숨겨진 필드 -->
+                <input type="hidden" name="form-name" value="contact" />
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">성함</label>
+                    <input type="text" id="name" name="name" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">이메일</label>
+                    <input type="email" id="email" name="email" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700">문의 내용</label>
+                    <textarea id="message" name="message" rows="5" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" placeholder="예) 연구 주제, 진행 상황, 구체적인 문의사항 등을 남겨주세요."></textarea>
+                </div>
+                <div class="text-center pt-4">
+                    <button type="submit" class="w-full max-w-xs bg-indigo-600 text-white font-bold py-3 px-8 rounded-full hover:bg-indigo-700 transition-colors shadow-lg">문의 보내기</button>
+                    
+                    <div class="my-4 text-gray-500 font-medium">또는</div>
+                    
+                    <!-- 'YOUR_LINK_HERE' 부분에 실제 카카오톡 오픈채팅 링크를 넣어주세요. -->
+                    <a href="https://open.kakao.com/o/YOUR_LINK_HERE" target="_blank" rel="noopener noreferrer" class="w-full max-w-xs inline-flex items-center justify-center bg-[#FEE500] text-gray-800 font-bold py-3 px-8 rounded-full hover:bg-yellow-400 transition-colors shadow-lg">
+                        <svg class="w-6 h-6 mr-3" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.477 2 2 5.817 2 10.2c0 2.443 1.313 4.63 3.39 6.004-.236.83-.93 2.697-1.127 3.352-.19.626.162 1.28.814 1.28.398 0 .79-.144 1.134-.395 2.228-1.624 3.82-2.92 3.82-2.92s.313.044.624.082C11.33 17.95 11.66 18 12 18c5.523 0 10-3.817 10-8.2S17.523 2 12 2z"/></svg>
+                        카카오톡으로 문의하기
+                    </a>
+                    <p class="mt-4 text-sm text-gray-500">카카오톡 문의는 24시간 가능합니다.</p>
+                </div>
+            </form>
+            <!-- Custom modal for confirmation -->
+            <div id="confirmation-modal" class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center z-50">
+                <div class="bg-white p-8 rounded-xl shadow-2xl text-center max-w-sm">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">문의가 접수되었습니다.</h3>
+                    <p class="text-gray-600 mb-6">최대한 빠르게 연락 드리겠습니다.</p>
+                    <button id="modal-close-button" class="bg-indigo-600 text-white font-bold py-2 px-6 rounded-full hover:bg-indigo-700 transition-colors">닫기</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 학술 연구 컨설팅. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const contactForm = document.querySelector('form[name="contact"]');
+        const confirmationModal = document.getElementById('confirmation-modal');
+        const modalCloseButton = document.getElementById('modal-close-button');
+
+        // Mobile menu toggle functionality
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Netlify AJAX form submission handler
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const formData = new FormData(contactForm);
+            
+            fetch('/', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams(formData).toString()
+            })
+            .then(() => {
+                // Show confirmation modal on success
+                confirmationModal.classList.remove('hidden');
+                contactForm.reset();
+            })
+            .catch((error) => {
+                console.error('Form submission error:', error);
+                // The alert is a fallback. For a better user experience, 
+                // you might want to show an error message in the UI.
+                alert('문의 제출에 실패했습니다. 다시 시도해주세요.');
+            });
+        });
+
+        // Modal close functionality
+        modalCloseButton.addEventListener('click', () => {
+            confirmationModal.classList.add('hidden');
+        });
+    </script>
+</body>
+</html>
+
